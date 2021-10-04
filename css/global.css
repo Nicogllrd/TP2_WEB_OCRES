@@ -5,6 +5,27 @@
     font-weight: bold;
 }
 
+@media only screen and (max-width: 767px) {
+    .wrapper {
+    display: none ;
+    }
+    .name p img { 
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (max-width: 450px) {
+
+}
+
 * { 
     font-family: 'My Lucida', Console;
 }
@@ -23,7 +44,7 @@ a {
 }
 
 body > header {
-    margin-bottom: 20px;
+    margin-bottom:20px;
     background: white;
     box-shadow: 1px 0px 8px rgb(200, 200, 200);
 }
@@ -215,7 +236,3 @@ nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
 nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
-
-
-
-
